@@ -58,7 +58,7 @@ const DashboardData: FC = () => {
         <div className="flex justify-center items-start pt-10 font-sans">
             <div className="w-full">
                 <div className="flex flex-row items-center justify-between space-y-0 space-x-7 mb-6">
-                    <div className="w-full">
+                    <div className="w-[75%]">   
                         <SearchInput
                             value={searchTerm}
                             onValueChange={setSearchTerm}
